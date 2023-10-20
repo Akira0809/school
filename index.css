@@ -1,0 +1,68 @@
+.main {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: auto;
+    height: 50px;
+    display: block;
+}
+
+.body {
+    width: auto;
+    height: 650px;
+    display: block;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: scroll;
+}
+
+.footer {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-align: center;
+    margin: 10px;
+}
+
+.input_text {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 150%;
+}
+
+.input_button {
+    width: 20%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.textbox {
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.chatgpt_text {
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: darkgrey;
+}
